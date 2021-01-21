@@ -62,7 +62,7 @@ class Spider(object):
         1.客户端向弹幕服务器发送登录请求
         2.客户端收到登录成功消息后发送进入弹幕分组请求给弹幕服务器
         """
-        login_msg = "type@=loginreq/roomid@=74751/dfl@=/username@=380054864=/uid@=380054864/ver@=20190610/aver@=218101901/ct@=0/"
+        login_msg = "type@=loginreq/roomid@=74751/dfl@=/username@=123456=/uid@=123456/ver@=20190610/aver@=218101901/ct@=0/"
         try:
             self.ws.send(self.dy_encode(login_msg))
             print('登陆成功')
