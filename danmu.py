@@ -9,7 +9,7 @@ import websocket
 
 class Spider(object):
     def __init__(self):
-        self.conn = pymysql.connect(host='127.0.0.1', user='root', password='123456', db='house', charset='utf8mb4')
+        self.conn = pymysql.connect(host='127.0.0.1', user='user', password='password', db='database', charset='utf8mb4')
         self.cursor = self.conn.cursor()
         self.ws = websocket.create_connection('wss://danmuproxy.douyu.com:8506')
         self.gift_dict = self.get_gift_dict()
