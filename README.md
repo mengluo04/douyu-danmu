@@ -12,4 +12,5 @@
 使用：
  1、安装requests，pymysql，websocket-client
  2、准备好数据库和表
+ 3、将登录部分的username和userid的123456替换成你自己的uid，也可以随意一个，将74751替换成你自己的房间号
  3、使用python3 danmu.py运行
