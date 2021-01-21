@@ -8,3 +8,8 @@
 存在问题：
  1、可能有异常弹幕解析失败导致程序崩溃，可以使用supervisor进行监听
   2、飞机火箭等礼物在礼物类型dgb下无法获取
+
+使用：
+ 1、安装requests，pymysql，websocket-client
+ 2、准备好数据库和表
+ 3、使用python3 danmu.py运行
