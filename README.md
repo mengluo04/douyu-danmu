@@ -14,3 +14,16 @@
  2、准备好数据库和表
  3、将登录部分的username和userid的123456替换成你自己的uid，也可以随意一个，将74751替换成你自己的房间号
  3、使用python3 danmu.py运行
+ 
+#####################2021年2月1日#####################
+
+飞机火箭等大礼物消息类型type为 tsboxb 
+对应的礼物id地段为rpt，用户昵称为snk
+礼物id可以从这个接口获取
+https://www.douyu.com/betard/74751
+74751为房间id，在room_gift字典的gift字典下面的effect字典里，treasure_type字段就是上面说到的rpt字段对应的值，name为礼物名称
+
+全站礼物接口和小礼物接口
+https://webconf.douyucdn.cn/resource/common/prop_gift_list/prop_gift_config.json（全站）
+https://webconf.douyucdn.cn/resource/common/gift/gift_template/20003.json（小礼物）
+其中20003为当前直播间礼物模板id，通过https://www.douyu.com/betard/74751中的room.giftTempId 获取
