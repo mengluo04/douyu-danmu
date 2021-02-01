@@ -26,4 +26,4 @@ https://www.douyu.com/betard/74751
 全站礼物接口和小礼物接口  
 https://webconf.douyucdn.cn/resource/common/prop_gift_list/prop_gift_config.json （全站）
 https://webconf.douyucdn.cn/resource/common/gift/gift_template/20003.json （小礼物）  
-其中20003为当前直播间礼物模板id，通过https://www.douyu.com/betard/74751中的room.giftTempId 获取
+其中20003为当前直播间礼物模板id，通过https://www.douyu.com/betard/74751 中的 room.giftTempId 获取
